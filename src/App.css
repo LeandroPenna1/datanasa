@@ -1,0 +1,212 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+ */
+* {
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+header .navbar{
+  height: 30px;
+}
+#home {
+  margin-top: 30px;
+  color:aliceblue ;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/public/recursos/wp1.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+ #home .home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ #home .home-content .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 120%;
+  margin-bottom: 20px;
+}
+
+ #home .home-content .fc {
+  display: flex;
+  flex-direction: column;
+ }
+
+ #home .home-content .options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ }
+
+ #home .options img {
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+#home .fc img {
+  width: 300px;
+  height: auto;
+}
+
+#home .sc img {
+  height: 400px;
+  width: 300px;
+}
+
+/* SECTION POTD */
+#picotd {
+  color:aliceblue ;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.798), rgba(0, 0, 0, 0.558)), url(/public/recursos/IMG_2999korosecMilkyMet.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#picotd .title {
+  text-align: center;
+}
+#picotd .potd-container .explanation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 1px 1px 2px pink;
+}
+
+#picotd .post {
+  display: flex;
+  flex-direction: row;
+  height:80vh;
+  justify-content: Center;
+}
+#picotd img {
+  max-height: 400px;
+}
+#picotd .potd-container .text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 80vh;
+  padding-left: 20px;
+  max-width: 50%;
+}
+
+#picotd .potd-container img {
+  box-shadow: 10px 5px 5px rgb(87, 115, 134);
+}
+
+
+/* SECTION MARS PICS */
+#marspics {
+  color:aliceblue ;
+  height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.619)), url(/public/recursos/27508_PIA25912-web.webp);
+  background-size: cover;
+  background-position: center center;
+}
+
+#marspics h1,p {
+  display: flex;
+  justify-content: center;
+}
+#marspics .pics-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#marspics img {
+  width: auto; 
+  height: 150px; 
+  margin: 10px 10px;
+  border: 3px solid rgb(97, 95, 95);
+  border-radius: 4%;
+}
+
+/* NATURAL EVENTS SECTION */
+#naturalevents {
+  background: linear-gradient(rgba(0, 0, 0, 0.632), rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.433)), url(/public/recursos/lava-incendios-forestales-region-montanas-rocosas-oregon_921860-99177.jpg);
+  height: 100vh;
+  color: aliceblue;
+  background-size: cover;
+  background-position: center bottom;
+}
+#naturalevents .events-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#naturalevents .events-interfaz {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 85vh;
+  justify-content: space-around;
+}
+
+#naturalevents .EventContainer {
+  height: 400px;
+  overflow-y: scroll;
+  width: 700px;
+}
+#naturalevents #event-buttons {
+  display: flex;
+  flex-direction: column;
+}
+#naturalevents #event-buttons button {
+  width: 200px;
+  height: 50px;
+  color: black;
+}
