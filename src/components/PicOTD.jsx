@@ -9,7 +9,7 @@ const PicOTD = () => {
   return (
     <section id='picotd'>
       <h1>Picture Of The Day</h1>
-      <p>Every day, Nasa share the "image of the day". Here, we share this beautiful pic: </p>
+      <p>Nasa publishes a Picture of the Day, every day. </p>
       {data != null ? (
         data.map(data => (
           <div className='title' key={data.id}>

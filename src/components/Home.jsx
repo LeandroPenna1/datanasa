@@ -32,7 +32,7 @@ function Home() {
                 <main>
                     <div className="home-content">
                         <div className="text">
-                            <h1> Explore the universe with DATA NASA</h1>
+                            <h1> Explore the universe with NASA DATA</h1>
                             <h3> Where rocket science meets information in your hands</h3>
                         </div>
                         <div className="options">
@@ -44,7 +44,7 @@ function Home() {
                                         </a>
                                         <div className="info">
                                             <h4> Explore Mars </h4>
-                                            <p> You can see pics of the Mars planet by Curiosity Rover. </p>
+                                            <p> View pictures of Mars by the Curiosity Rover. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ function Home() {
                                         </a>
                                         <div className="info">
                                             <h4> Natural Events </h4>
-                                            <p> All the volcanoes, Fire and Wirefire and Iceberg currently. </p>
+                                            <p> Stay update on all the volcanoes, wildfires, and Iceberg currently active. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@ function Home() {
                                         </a>
                                         <div className="info">
                                             <h4> Pic Of The Day </h4>
-                                            <p> Nasa public the Pic of the day every day.</p>
+                                            <p>Nasa publishes a Picture of the Day, every day.</p>
                                         </div>
                                     </div>
                                 </div>

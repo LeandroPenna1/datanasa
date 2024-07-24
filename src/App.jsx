@@ -3,6 +3,7 @@ import './App.css'
 import MarsPics from './components/MarsPics';
 import PicOTD from './components/PicOTD';
 import NaturalEvents from './components/NaturalEvents';
+import Event from './components/Event';
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <PicOTD/>
     <MarsPics />
     <NaturalEvents/>
+    <Event/>
     </>
   )
 }

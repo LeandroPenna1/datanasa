@@ -41,7 +41,7 @@ const NaturalEvents = () => {
     <section id='naturalevents'>
     <div className='events-container'>
     <h1>Natural Events</h1>
-    <p>Here, you can look ALL the natural events currently in the world.</p>
+    <p>Here, you can view all the natural events currently in the world.</p>
     <div className='events-interfaz'>
       <div id='event-buttons'>
         <button onClick={() => handleButtonClick('Volcano')}>Volcanoes</button>
